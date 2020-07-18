@@ -3,6 +3,7 @@ import { connect } from 'react-redux';
 import { NavLink } from 'react-router-dom';
 import { withRouter} from "react-router-dom";
 import { ActionCreators } from '../../actions/profile';
+import { getStore, removeItem } from '../../utils';
 import './style.css';
 
 export class ProfileImage extends Component {
@@ -36,6 +37,12 @@ export class ProfileImage extends Component {
     this.profileImgRef.current.click();
   }
 
+  logout = (event) => {
+    event.preventDefault();
+    removeItem('user')
+    this.props.history.push('/login')
+  }
+
   render() {
     const { profileImage }  = this.props.profile;
     return (
@@ -47,12 +54,10 @@ export class ProfileImage extends Component {
         </div>
         <div className="center">{ this.props.formSubmitted && this.props.profile && this.props.profile.profileImage.length === 0 &&  <span className='error'>Please Select Image</span> }</div>
         {
-          this.props.location.pathname === '/confirm' &&
-          <NavLink to="/register" className="editProfile">Edit Profile</NavLink> 
+          this.props.location.pathname === '/confirm' && <NavLink to="/register" className="editProfile">Edit Profile</NavLink>
         }
         {
-          profileImage && this.props.location.pathname !== '/confirm' &&
-          <NavLink to="/login" className="editProfile">Logout</NavLink> 
+          getStore('user') && <button className="link-button" onClick={this.logout}>Logout</button>
         }
       </div>
     )

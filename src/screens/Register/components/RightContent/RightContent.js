@@ -119,12 +119,10 @@ export class RightContent extends Component {
 
   validateForm = (errors) => {
     let valid = true;
-    console.log(errors)
     Object.entries(errors.user).forEach(item => {
       console.log(item)
       item && item[1].length > 0 && (valid = false)
     })
-    console.log(valid)
     return valid;
   }
 
@@ -135,7 +133,6 @@ export class RightContent extends Component {
     if (user && this.props.profile) {
       user.profileImage = this.props.profile.profileImage;
     }
-    console.log(user)
     event.preventDefault();
     if (this.validateForm(this.state.errors) && this.props.profile && this.props.profile.profileImage) {
       console.info('Valid Form')
@@ -188,7 +185,7 @@ export class RightContent extends Component {
         <div className="row">
           <label htmlFor="email" className="col-sm-2 col-form-label">Email</label>
           <div className="col-sm-6 mb-2">
-            <input type="email" value={email} name="email" onChange={(e) => { this.inputChange(e)} } className="form-control" id="email" placeholder="davidmiller@pitsolutions.com" />
+            <input type="email" value={email} name="email" onChange={(e) => { this.inputChange(e)} } className="form-control" id="email" placeholder="itjebasuthan@gmail.com" />
             { submitted && this.state.errors.user.email.length > 0 &&  <span className='error'>{this.state.errors.user.email}</span>}
           </div>
           <div className="col-sm-4">

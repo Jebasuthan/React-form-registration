@@ -4,7 +4,7 @@ import './style.css';
 export class Header extends Component {
   render() {
     return (
-      <header>Online - Registration</header>
+      <header>User - Registration</header>
     )
   }
 }

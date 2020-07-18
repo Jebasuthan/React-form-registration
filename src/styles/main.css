@@ -28,3 +28,18 @@ html, body {
 .right {
   text-align: right;
 }
+.link-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  text-decoration: underline;
+  display: block;
+  text-align: center;
+  margin: 10px;
+  width: 100%;
+  color: #1b8bec;
+}
+.link-button:hover,
+.link-button:focus {
+  text-decoration: none;
+}

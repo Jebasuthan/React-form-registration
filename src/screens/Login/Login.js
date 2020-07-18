@@ -58,9 +58,7 @@ export class Login extends Component {
     event.preventDefault();
     if (this.validateForm(this.state.errors)) {
       console.info('Valid Form')
-      console.log(this.props.profile)
       const user = getStore('user')
-      console.log(user)
       if (user) {
         this.props.dispatch(ActionCreators.login(user));
         this.props.history.push('/home')

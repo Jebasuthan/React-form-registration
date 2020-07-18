@@ -11,6 +11,9 @@ export class Approval extends Component {
       setStore('user', this.props.user);
       alert('Congratulation your profile Completed successfully!');
       this.props.history.push('/home');
+    } else {
+      alert('Invalid User Details!');
+      this.props.history.push('/register');
     }
   }
 

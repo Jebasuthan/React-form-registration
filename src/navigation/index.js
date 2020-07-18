@@ -7,41 +7,27 @@ import Confirmation from '../screens/Confirmation';
 import { AuthContext } from '../context/auth';
 import { getStore } from '../utils';
 
-function AuthenticatedRoute ({component: Component, isUserLogined, ...rest}) {
+function AuthenticatedRoute ({component: Component, ...rest}) {
   return (
     <Route
       {...rest}
-      render={(props) => isUserLogined === true 
-        ? <Component {...props} />
+      render={(props) => getStore('user') ? <Component {...props} />
         : <Redirect to={{pathname: '/login', state: {from: props.location}}} />}
     />
   )
 }
 
 class Navigation extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      isUserLogined: false
-    }
-  }
-  componentDidMount() {
-    const user = getStore('user')
-    if (user) {
-      this.setState({ isUserLogined: true });
-    }
-  }
   render() {
-    const { isUserLogined } = this.state
     return (
-      <AuthContext.Provider value={ isUserLogined }>
+      <AuthContext.Provider>
         <Router>
           <Switch>
             <Route exact path="/login" component={Login} />
             <Route path="/register" component={Register} />
-            <Route path='*' exact={true} component={Login} />
-            <AuthenticatedRoute path='/home' isUserLogined={isUserLogined} component={Home} />
-            <AuthenticatedRoute path='/confirm' isUserLogined={isUserLogined} component={Confirmation} />
+            <Route path="/confirm" component={Confirmation} />
+            <AuthenticatedRoute exact path='/home' component={Home} />
+            <Route path='*' component={Login} />
           </Switch>
         </Router>
       </AuthContext.Provider>
