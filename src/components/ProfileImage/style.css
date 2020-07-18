@@ -1,0 +1,51 @@
+.leftPanel {
+  /* padding: 20px; */
+  margin: 10px;
+  float: left;
+  width: 20%;
+}
+.profileImage {
+  height: 150px;
+  /* width: 90%; */
+  position: absolute;
+  z-index: 99;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+}
+.container {
+  position: relative;
+  height: 30vh;
+  background-color: #1b8bec;
+  min-height: 200px;
+  width: 90% !important;
+}
+.profileImageSelection {
+  background-color: #1b8bec;
+  color: #fff;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border: none;
+  text-decoration: underline;
+  height: 100%;
+  width: 100%;
+}
+.editProfile {
+  text-align: center;
+  display: block;
+  margin: 10px;
+  text-decoration: underline;
+}
+.center {
+  text-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+  .leftPanel {
+    width: 100%;
+    margin: 10px;
+  }
+}

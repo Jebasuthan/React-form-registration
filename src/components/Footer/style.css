@@ -1,0 +1,13 @@
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  min-height: 8vh;
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  background-color: #daf5ff;
+  /* background-image: linear-gradient(#daf5ff, transparent, transparent); */
+}

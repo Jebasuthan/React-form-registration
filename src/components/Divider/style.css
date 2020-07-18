@@ -1,0 +1,13 @@
+.divider {
+  /* border: 1px solid #ccc; */
+
+  border: 1px solid #ccc;
+  height: 100%;
+  position: absolute;
+  left: 21%;
+}
+@media only screen and (max-width: 768px) {
+  .divider {
+    border: 0px;
+  }
+}

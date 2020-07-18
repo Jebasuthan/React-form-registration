@@ -1,0 +1,32 @@
+{
+  "listStates": [
+    {
+      "id": "1",
+      "name": "Alaska"
+    },
+    {
+      "id": "2",
+      "name": "California"
+    },
+    {
+      "id": "3",
+      "name": "Florida"
+    },
+    {
+      "id": "4",
+      "name": "Indiana"
+    },
+    {
+      "id": "5",
+      "name": "New York"
+    },
+    {
+      "id": "6",
+      "name": "Ohio"
+    },
+    {
+      "id": "7",
+      "name": "Tennessee"
+    }
+  ]
+}

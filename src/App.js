@@ -1,26 +1,33 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { connect } from 'react-redux';
+import { Header, Footer } from './components';
+import Navigation from './navigation';
+import { getStore } from './utils';
+import { ActionCreators } from './actions/profile';
+import './styles';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends React.Component {
+  componentDidMount() {
+    const user = getStore('user')
+    if (user) {
+      this.props.dispatch(ActionCreators.login(user));
+    }
+  }
+  render() {
+    return (
+      <div>
+        <Header />
+        <Navigation />
+        <Footer />
+      </div>
+    )
+  }
 }
 
-export default App;
+const mapStateToProps = (state) => {
+  return {
+    profile: state.user.profile
+  }
+}
+
+export default connect(mapStateToProps)(App);

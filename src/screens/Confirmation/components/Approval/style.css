@@ -1,0 +1,12 @@
+.approvalcontainer {
+  padding: 20px;
+  height: 100%;
+  overflow: auto;
+}
+.bindtext {
+  color: #1b8bec;
+}
+.aggreebtnContainer {
+  text-align: center;
+  margin-top: 50px;
+}

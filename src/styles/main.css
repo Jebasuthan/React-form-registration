@@ -1,0 +1,30 @@
+html, body {
+  height: 100% !important;
+  margin: 0;
+}
+.form-control, .col-form-label, .custom-select, label, header, footer {
+  font-size: 0.8rem !important;
+}
+.button {
+  padding: .6rem 2rem;
+  line-height: 1.5;
+  border-radius: .4rem;
+  color: #fff;
+  background-color: #1b8bec;
+  border-color: #6c757d;
+  text-decoration: none;
+  border: 1px solid rgb(24, 24, 80);
+}
+.pagecenter {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.error {
+  color: red;
+  font-size: 0.8rem;
+}
+.right {
+  text-align: right;
+}
