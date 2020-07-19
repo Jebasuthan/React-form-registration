@@ -4,8 +4,8 @@ Handling User Registration and Login with Redux, Form validations, Router using 
 ## Project setup
 
 In the project directory, you can run:
-1. ### `npm install`
-2. ### `npm start` or `yarn start`
+1. ``` npm install ```
+2. ```npm start``` or ```yarn start```
 
 Runs the app in the development mode.<br />
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
@@ -23,7 +23,7 @@ You will also see any lint errors in the console.
 <img width="1439" alt="Screenshot 2020-07-19 at 10 41 02 AM" src="https://user-images.githubusercontent.com/3702438/87867623-9cc5fb80-c9ac-11ea-9837-afb450cf7290.png">
 
 ## Compiles and minifies for production
-### `yarn build`
+```yarn build```
 
 ## Run your tests
-### `yarn test`
+```yarn test```
