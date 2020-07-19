@@ -3,7 +3,7 @@ import { connect } from 'react-redux';
 import { NavLink } from 'react-router-dom';
 import { withRouter} from "react-router-dom";
 import { ActionCreators } from '../../actions/profile';
-import { getStore, removeItem } from '../../utils';
+import { getStore } from '../../utils';
 import './style.css';
 
 export class ProfileImage extends Component {
@@ -39,7 +39,6 @@ export class ProfileImage extends Component {
 
   logout = (event) => {
     event.preventDefault();
-    removeItem('user')
     this.props.history.push('/login')
   }
 
