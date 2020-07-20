@@ -1,5 +1,5 @@
 ## Pure ReactJS form registration
-Handling User Registration and Login with Redux, Form validations, Router using Pure ReactJS applications without any external package.
+Handling User Registration and Login with Redux, Form validations & Route using Pure ReactJS applications without any external package.
 
 ## Project setup
 
@@ -12,6 +12,18 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 The page will reload if you make edits.<br />
 You will also see any lint errors in the console.
+
+## Features available in the application:
+1. Perfect Folder Structure
+2. User Registration
+3. Login
+3. React-Redux (store implemetation)
+5. Route & Private Route (Authentication)
+6. Form Validations
+7. Individual Components (Input range, Multiselect & Profile Picture, …etc)
+8. Load data from local JSON file (mock data)
+9. No external libraries
+10. Custom Utils functions (Email validation, Format Phone (111) 111–1111), & localstorage, ... etc)
 
 ## <g-emoji class="g-emoji" alias="tada" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f389.png">🎉 </g-emoji> [Demo Link](https://react-form-registration.herokuapp.com/)  <g-emoji class="g-emoji" alias="tada" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f389.png">🎉</g-emoji>
 
