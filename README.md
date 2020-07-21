@@ -25,7 +25,7 @@ You will also see any lint errors in the console.
 9. No external libraries
 10. Custom Utils functions (Email validation, Format Phone (111) 111–1111), & localstorage, ... etc)
 
-## Tutorial is available on [medium article](https://medium.com/@itjebasuthan_90100/react-user-registration-and-login-using-redux-81ec739e93d1)
+## Tutorial is available on [medium article](https://medium.com/@jebasuthan/react-user-registration-and-login-using-redux-81ec739e93d1)
 
 
 ## <g-emoji class="g-emoji" alias="tada" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f389.png">🎉 </g-emoji> [Demo Link](https://react-form-registration.herokuapp.com/)  <g-emoji class="g-emoji" alias="tada" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f389.png">🎉</g-emoji>
