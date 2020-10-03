@@ -1,10 +1,11 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Pure ReactJS form registration
+Handling User Registration and Login with Redux, Form validations & Route using Pure ReactJS applications without any external package.
 
-## Available Scripts
+## Project setup
 
 In the project directory, you can run:
-
-### `npm start`
+1. ``` npm install ```
+2. ```npm start```
 
 Runs the app in the development mode.<br />
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
@@ -12,57 +13,34 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.<br />
 You will also see any lint errors in the console.
 
-### `npm test`
+## Features available in the application:
+1. Perfect Folder Structure
+2. User Registration
+3. Login
+3. React-Redux (store implemetation)
+5. Route & Private Route (Authentication)
+6. Form Validations
+7. Individual Components (Input range, Multiselect & Profile Picture, …etc)
+8. Load data from local JSON file (mock data)
+9. No external libraries
+10. Custom Utils functions (Email validation, Format Phone (111) 111–1111), & localstorage, ... etc)
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Tutorial is available on [medium article](https://medium.com/@jebasuthan/react-user-registration-and-login-using-redux-81ec739e93d1)
 
-### `npm build`
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## <g-emoji class="g-emoji" alias="tada" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f389.png">🎉 </g-emoji> [Demo Link](https://react-form-registration.herokuapp.com/)  <g-emoji class="g-emoji" alias="tada" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f389.png">🎉</g-emoji>
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+## Login Screen
+<img width="1437" alt="Screenshot 2020-07-19 at 10 38 49 AM" src="https://user-images.githubusercontent.com/3702438/87867620-98014780-c9ac-11ea-83f3-35b0b4b5029a.png">
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Register User
+<img width="1436" alt="Screenshot 2020-07-19 at 10 40 15 AM" src="https://user-images.githubusercontent.com/3702438/87867622-9b94ce80-c9ac-11ea-8902-d0d4550ff1ef.png">
 
-### `yarn eject`
+## Home Screen
+<img width="1439" alt="Screenshot 2020-07-19 at 10 41 02 AM" src="https://user-images.githubusercontent.com/3702438/87867623-9cc5fb80-c9ac-11ea-9837-afb450cf7290.png">
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Compiles and minifies for production
+```npm build```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+## Run your tests
+```npm test```
