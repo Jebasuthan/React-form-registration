@@ -10,10 +10,10 @@ export class Approval extends Component {
     if (this.props.user.firstName) {
       setStore('user', this.props.user);
       alert('Congratulation your profile Completed successfully!');
-      this.props.history.push('/home');
+      this.props.history.push('/React-form-registration/home');
     } else {
       alert('Invalid User Details!');
-      this.props.history.push('/register');
+      this.props.history.push('/React-form-registration/register');
     }
   }
 

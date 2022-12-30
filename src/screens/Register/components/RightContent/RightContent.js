@@ -137,7 +137,7 @@ export class RightContent extends Component {
     if (this.validateForm(this.state.errors) && this.props.profile && this.props.profile.profileImage) {
       console.info('Valid Form')
       this.props.dispatch(ActionCreators.addProfile(user));
-      this.props.history.push('/confirm')
+      this.props.history.push('/React-form-registration/confirm')
     } else {
       console.log('Invalid Form')
     }

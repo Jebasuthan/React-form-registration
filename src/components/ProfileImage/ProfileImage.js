@@ -39,7 +39,7 @@ export class ProfileImage extends Component {
 
   logout = (event) => {
     event.preventDefault();
-    this.props.history.push('/login')
+    this.props.history.push('/React-form-registration/login')
   }
 
   render() {

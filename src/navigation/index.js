@@ -23,11 +23,11 @@ class Navigation extends Component {
       <AuthContext.Provider>
         <Router>
           <Switch>
-            <Route exact path="/login" component={Login} />
-            <Route path="/register" component={Register} />
-            <Route path="/confirm" component={Confirmation} />
-            <AuthenticatedRoute exact path='/home' component={Home} />
-            <Route path='*' component={Login} />
+            <Route exact path="/React-form-registration/login" component={Login} />
+            <Route exact path="/React-form-registration/register" component={Register} />
+            <Route exact path="/React-form-registration/confirm" component={Confirmation} />
+            <AuthenticatedRoute exact path='/React-form-registration/home' component={Home} />
+            <Route exact path='*' component={Login} />
           </Switch>
         </Router>
       </AuthContext.Provider>

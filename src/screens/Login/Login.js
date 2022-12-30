@@ -61,7 +61,7 @@ export class Login extends Component {
       const user = getStore('user')
       if (user) {
         this.props.dispatch(ActionCreators.login(user));
-        this.props.history.push('/home')
+        this.props.history.push('/React-form-registration//home')
       } else {
         this.setState({ loginStatus: 'Login Failed! Invalid Username and Password'})
       }
@@ -107,7 +107,7 @@ export class Login extends Component {
           <div className="row">
             <div className="col-sm-4 mt-2"></div>
             <div className="col-sm-4 right">
-              <a href="/register">Register</a>
+              <a href="/React-form-registration/register">Register</a>
             </div>
             <div className="col-sm-4 mt-2"></div>
           </div>
