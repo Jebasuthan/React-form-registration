@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/React-form-registration/static/css/main.432d715c.chunk.css",
-    "main.js": "/React-form-registration/static/js/main.76658dce.chunk.js",
-    "main.js.map": "/React-form-registration/static/js/main.76658dce.chunk.js.map",
+    "main.js": "/React-form-registration/static/js/main.921bffa8.chunk.js",
+    "main.js.map": "/React-form-registration/static/js/main.921bffa8.chunk.js.map",
     "runtime-main.js": "/React-form-registration/static/js/runtime-main.0ac64f32.js",
     "runtime-main.js.map": "/React-form-registration/static/js/runtime-main.0ac64f32.js.map",
     "static/css/2.af3c1da9.chunk.css": "/React-form-registration/static/css/2.af3c1da9.chunk.css",
     "static/js/2.3aea4c78.chunk.js": "/React-form-registration/static/js/2.3aea4c78.chunk.js",
     "static/js/2.3aea4c78.chunk.js.map": "/React-form-registration/static/js/2.3aea4c78.chunk.js.map",
     "index.html": "/React-form-registration/index.html",
-    "precache-manifest.d30b1eba9d917fe3fbb9a2790ad28b95.js": "/React-form-registration/precache-manifest.d30b1eba9d917fe3fbb9a2790ad28b95.js",
+    "precache-manifest.c48a98e874792e47bd71d0bb9ffa91d5.js": "/React-form-registration/precache-manifest.c48a98e874792e47bd71d0bb9ffa91d5.js",
     "service-worker.js": "/React-form-registration/service-worker.js",
     "static/css/2.af3c1da9.chunk.css.map": "/React-form-registration/static/css/2.af3c1da9.chunk.css.map",
     "static/css/main.432d715c.chunk.css.map": "/React-form-registration/static/css/main.432d715c.chunk.css.map",
@@ -20,6 +20,6 @@
     "static/css/2.af3c1da9.chunk.css",
     "static/js/2.3aea4c78.chunk.js",
     "static/css/main.432d715c.chunk.css",
-    "static/js/main.76658dce.chunk.js"
+    "static/js/main.921bffa8.chunk.js"
   ]
 }
