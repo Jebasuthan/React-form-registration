@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { withRouter} from "react-router-dom";
+import { withRouter, Link } from "react-router-dom";
 import { connect } from 'react-redux';
 import { ActionCreators } from '../../actions/profile';
 import { getStore } from '../../utils';
@@ -107,7 +107,7 @@ export class Login extends Component {
           <div className="row">
             <div className="col-sm-4 mt-2"></div>
             <div className="col-sm-4 right">
-              <a href="/React-form-registration/register">Register</a>
+              <Link to="/React-form-registration/register">Register</Link>
             </div>
             <div className="col-sm-4 mt-2"></div>
           </div>
