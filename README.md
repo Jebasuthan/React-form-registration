@@ -28,7 +28,7 @@ You will also see any lint errors in the console.
 ## Tutorial is available on [medium article](https://medium.com/@jebasuthan/react-user-registration-and-login-using-redux-81ec739e93d1)
 
 
-## <g-emoji class="g-emoji" alias="tada" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f389.png">🎉 </g-emoji> [Demo Link](https://react-form-registration.herokuapp.com/)  <g-emoji class="g-emoji" alias="tada" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f389.png">🎉</g-emoji>
+## <g-emoji class="g-emoji" alias="tada" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f389.png">🎉 </g-emoji> [Demo Link](https://jebasuthan.github.io/React-form-registration/)  <g-emoji class="g-emoji" alias="tada" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f389.png">🎉</g-emoji>
 
 ## Login Screen
 <img width="1437" alt="Screenshot 2020-07-19 at 10 38 49 AM" src="https://user-images.githubusercontent.com/3702438/87867620-98014780-c9ac-11ea-83f3-35b0b4b5029a.png">
